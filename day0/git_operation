@@ -1,0 +1,19 @@
+1.git config --global user.name "your name"
+  git config --global user.email "email@example.com"
+  配置--global是对这台机器上所有的git仓库都有作用，也可以对
+  某个仓库制定不同的用户名和邮箱。
+
+  git config --list 列出git所有的配置
+
+2.git config --global core.editor emacs  使用emacs作为
+  默认的文本编辑器。
+
+3.git init 把当前目录变成git仓库
+
+4..git目录是git的版本库，包含很多东西，最重要的是成为stage的暂存区，
+  还有版本分支（如master），以及指向master的指针HEAD。
+
+5.git add 把文件修改添加到暂存区，git commit提交暂存区所有内容到当前
+  分支。
+
+6.HEAD指向的版本就是当前版本。
